@@ -3,7 +3,7 @@
 
     // Add code here
     // challenge: use array  
-    let message = "Choose your favourite fruit:"
+    let message = "Choose your favorite fruit:"
     let [fruit1, fruit2, fruit3] = ['apple', 'orange', 'peach']
     
 </script>
