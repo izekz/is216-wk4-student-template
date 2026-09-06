@@ -56,6 +56,7 @@
 
     <div id="part2">
         <div 
+        v-bind:id="id2"
         v-bind:style="{ color : activeColor}">
             div ID : {{id2}} 
         </div>
