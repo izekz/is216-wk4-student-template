@@ -8,6 +8,7 @@
     const blueBtn = ref(true)
 
     // part 2
+    const id2 = ref('demo2')
     const activeColor = ref('red')
     const redBtn = ref(true)
 
@@ -56,7 +57,7 @@
     <div id="part2">
         <div 
         v-bind:style="{ color : activeColor}">
-            div ID : {{id}} 
+            div ID : {{id2}} 
         </div>
        
         <button 
