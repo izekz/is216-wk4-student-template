@@ -20,9 +20,10 @@
         <input placeholder="Enter your username">
     </div>
 
-    <div v-if="loginOption=='email'">
+    <div v-else="loginOption=='email'">
         <label>Email</label>
         <input placeholder="Enter your email address">
     </div>
+    
 </template>
 
