@@ -2,26 +2,29 @@
     import { ref } from 'vue'
 
     // Add code here
-    import me from '/assets/me.png'
-    let width = 300
-    let height = 200
+    const me = ref('/assets/me.png') 
+    const width = ref('200')
+    const height = ref('200')
 
-    let imageAttr = {
+    const imageAttr = ref({
         src : me,
         width : width,
         height : height
-    }
+    })
 
 </script>
 
 <template>
 
     <!-- Add code here -->
+
    <img 
         v-bind:src="me"
         v-bind:width="width"
         v-bind:height="height"
    >
+
+   <br>
 
    <img v-bind="imageAttr">
 
