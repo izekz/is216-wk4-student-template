@@ -2,7 +2,7 @@
     import { ref } from 'vue'
 
     // Add code here
-    const me = ref('/assets/me.png') 
+    const me_image = ref('/assets/me.png') 
     const width = ref('200')
     const height = ref('200')
 
@@ -19,7 +19,7 @@
     <!-- Add code here -->
 
    <img 
-        v-bind:src="me"
+        v-bind:src="me_image"
         v-bind:width="width"
         v-bind:height="height"
    >
