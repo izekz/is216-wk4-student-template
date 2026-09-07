@@ -7,7 +7,7 @@
     const height = ref('200')
 
     const imageAttr = ref({
-        src : me,
+        src : me_image,
         width : width,
         height : height
     })
